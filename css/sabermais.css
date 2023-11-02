@@ -1,0 +1,195 @@
+/* Estilo global para o corpo da página */
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #f8f8f8; 
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 9px 0; 
+}
+
+#logo {
+    max-width: 100px;
+    width: 80px; 
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* Estilo para a navegação */
+.navbar {
+    padding: 0 20px; 
+}
+
+.nav-link {
+    color: #fff; 
+    margin-right: 20px; 
+}
+
+/* Estilos personalizados para aumentar o tamanho dos links */
+.navbar-nav .nav-item.nav-link {
+    font-size: 20px; 
+}
+
+/* Estilos para a seção de texto */
+.text-section {
+    margin: 20px; 
+    text-align: justify; 
+}
+
+/* Estilos para o título da seção */
+.text-section h1 {
+    font-size: 18px; 
+    margin-bottom: 10px; 
+}
+
+/* Estilos para os parágrafos de texto */
+.text-section p {
+    font-size: 13px; 
+    line-height: 1.5; 
+    margin-bottom: 20px; 
+}
+
+/* Estilos para todas as seções de imagem */
+.image-section {
+    margin: 20px; 
+    text-align: center; 
+}
+
+/* Estilos para os títulos das seções */
+.image-section h1, .image-section h2 {
+    font-size: 24px; 
+    margin-bottom: 10px; 
+}
+
+/* Estilos para as imagens */
+.image img {
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 10px; 
+}
+
+/* Estilos para os parágrafos de texto */
+.image p {
+    font-size: 12px; 
+    line-height: 1.5; 
+    margin-bottom: 20px; 
+}
+
+/* Estilos para os subtítulos (h2) */
+.image-section h2 {
+    font-size: 20px; 
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-section {
+    flex: 1;
+    margin: 10px;
+    text-align: justify;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.image {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.image-section:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.image h1, .image h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.image p {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center;
+    padding: 40px 0; 
+}
+
+footer p {
+    margin-top: 40px;
+}
+/* Estilo para os ícones de mídia social no rodapé */
+.fab {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #fff; 
+}
+
+/* Estilo para o link personalizado do Replit no rodapé */
+#copy-area a[href*="replit.com"] {
+    margin-left: 10px;
+}
+
+/* Estilo para o link do desenvolvedor no rodapé */
+#copy-area span {
+    font-weight: bold;
+}
+
+/* estrutura Responsiva */
+@media (max-width: 767px) {
+    .text-section {
+        padding: 20px;
+    }
+    
+    /* Ajuste o tamanho da fonte e espaçamento para telas pequenas */
+    .text-section p {
+        font-size: 14px;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
+
+    /* Ajuste o tamanho da fonte do título para telas pequenas */
+    .text-section h1 {
+        font-size: 20px;
+    }
+
+    /* Estilos para seções de imagem em telas pequenas */
+    .image-section {
+        padding: 20px;
+    }
+
+    /* Ajuste o tamanho da fonte e espaçamento para telas pequenas */
+    .image p {
+        font-size: 14px;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
+
+    /* Ajuste o tamanho da fonte do título para telas pequenas */
+    .image h1 {
+        font-size: 20px;
+    }
+}
