@@ -1,0 +1,31 @@
+*
+body {
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; 
+}
+
+
+.resumo-text .text-rm {
+    padding: 2%;
+}
+
+.resume-text .resu-tittle {
+    background: #25acc0;
+    border: 10px solid #25acc0;
+    border-radius: 6px 6px 0 0;
+    padding: 10px;
+}
+
+.resumo-text .resu-tittle h4 {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+/* Ocultar Leia Mais */
+#mais {
+    display: none;
+}

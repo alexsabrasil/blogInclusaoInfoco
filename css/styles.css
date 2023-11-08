@@ -203,9 +203,9 @@ h1, p {
 
 /*Card*/
 .card {
-  width: 320px;
-  height: 460px;
-  margin: 25px;
+  width: 290px;
+  height: 390px;
+  margin: 10px;
   background-color: #fff;
   border-radius: 20px;
   overflow: hidden;
@@ -215,22 +215,22 @@ h1, p {
 
 /* Card-header */
 .card-header {
-  width: 100%;
-  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
 }
 
-/*Card-img */
-.card-img {
-  min-width: 100px;
-  width: auto;
-  height: 100px;
+.card img {
+  max-width: 140%;
+  max-height: 320%;
 }
 
 /* Card-Body */
 .card-body {
-  height: 170px;
-  padding: 15px;
+  height: 90px;
+  padding: 5px;
   text-align: center;
   font-family: sans-serif;
 }
@@ -263,11 +263,16 @@ h1, p {
 .card-footer a {
   color: #fff;
   display: block;
-  padding: 16px;
+  padding: 3px;
   text-decoration: none;
   font-family: sans-serif;
   font-weight: 600;
 }
+
+.card-footer a:hover {
+  color: #011216;
+}
+
 
 /* Cores dos Cards */
 .card-1 .card-footer {
@@ -294,6 +299,21 @@ h1, p {
   color: #9e1ad3;
 }
 
+.card-4 .card-footer {
+  background-color: #d31a39;
+}
+
+.card-4 .card-subtitulo {
+  color: #d31a23;
+}
+
+.card-5 .card-footer {
+  background-color: #df620f;
+}
+
+.card-5 .card-subtitulo {
+  color: #050001;
+}
 /* Animação Hover */
 .card:hover {
   transform: scale3d(1.1, 1.1, 1);

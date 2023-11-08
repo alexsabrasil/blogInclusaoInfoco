@@ -1,6 +1,7 @@
-/* Estilo global para o corpo da página */
 body {
-    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
     background-color: #f8f8f8; 
 }
 
@@ -56,78 +57,9 @@ header {
     margin-bottom: 20px; 
 }
 
-/* Estilos para todas as seções de imagem */
-.image-section {
-    margin: 20px; 
-    text-align: center; 
-}
-
-/* Estilos para os títulos das seções */
-.image-section h1, .image-section h2 {
-    font-size: 24px; 
-    margin-bottom: 10px; 
-}
-
-/* Estilos para as imagens */
-.image img {
-    max-width: 100%; 
-    height: auto; 
-    margin-bottom: 10px; 
-}
-
-/* Estilos para os parágrafos de texto */
-.image p {
-    font-size: 12px; 
-    line-height: 1.5; 
-    margin-bottom: 20px; 
-}
-
 /* Estilos para os subtítulos (h2) */
 .image-section h2 {
     font-size: 20px; 
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.image-section {
-    flex: 1;
-    margin: 10px;
-    text-align: justify;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.image {
-    background-color: #f8f8f8;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-.image-section:hover {
-    transform: scale(1.05); 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-
-.image h1, .image h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.image img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.image p {
-    font-size: 0.8rem;
-    line-height: 1.5;
-    margin-bottom: 10px;
 }
 
 /* Estilo para o rodapé */
